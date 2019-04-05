@@ -1,0 +1,53 @@
+#all{
+    background-image:url(https://i.imgur.com/OHhRPqN.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 0 20%;
+    }
+#header{
+    text-align: center;
+    background-color:cornflowerblue;
+    
+}
+#imagehomer{
+    text-align: center;
+}
+
+#title{
+    border: 3px;
+    border-style:solid;
+    border-color:blueviolet;
+    background: white;
+}
+#body{
+    border: 3px;
+    border-style:solid;
+    border-color:coral;
+    background: white;
+}
+#posts{
+    margin-top: 10px;
+}
+#body2{
+    border: 3px;
+    border-style:solid;
+    border-color:crimson;
+    margin-top: 25px; 
+    background: white;
+}
+#body3{
+    border: 3px;
+    border-style:solid;
+    border-color:crimson;
+    margin-top: 25px;
+    background: white;
+}
+#homerscared{
+    margin-top: 15px;
+    text-align: center;
+}
+#background{
+    background: 
+}
+    
