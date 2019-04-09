@@ -8,7 +8,7 @@ public class UrlFixer {
 
         String newUrl = Url.replaceAll("bots", "odds");
 
-        String NewUrl = newUrl.replaceFirst("https","https:");
+        String NewUrl = newUrl.replaceFirst("https//","https://");
 
         System.out.println(NewUrl);
     }
