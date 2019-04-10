@@ -39,11 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="255">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,6 +81,7 @@
         <option value="$PROJECT_DIR$/src/MiddleLines.java" />
         <option value="$PROJECT_DIR$/src/ColoredBox.java" />
         <option value="$PROJECT_DIR$/src/Diagonals.java" />
+        <option value="$PROJECT_DIR$/src/GoToCenter.java" />
       </list>
     </option>
   </component>
@@ -135,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Diagonals">
+  <component name="RunManager" selected="Application.GoToCenter">
     <configuration name="ColoredBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ColoredBox" />
       <module name="day-3" />
@@ -150,6 +163,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoToCenter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GoToCenter" />
+      <module name="day-3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MiddleLines" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MiddleLines" />
       <module name="day-3" />
@@ -159,6 +179,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoToCenter" />
         <item itemvalue="Application.Diagonals" />
         <item itemvalue="Application.ColoredBox" />
         <item itemvalue="Application.MiddleLines" />
@@ -175,12 +196,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554893727107</updated>
-      <workItem from="1554893731456" duration="2068000" />
+      <workItem from="1554893731456" duration="3802000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2068000" />
+    <option name="totallyTimeSpent" value="3802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -221,6 +242,16 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ColoredBox.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -241,10 +272,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Diagonals.java">
+    <entry file="file://$PROJECT_DIR$/src/GoToCenter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="136">
+          <caret line="8" column="66" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
