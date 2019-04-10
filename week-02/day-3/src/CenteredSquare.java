@@ -11,9 +11,6 @@ public class CenteredSquare {
         graphics.setColor(Color.GREEN);
         graphics.drawRect(WIDTH / 2  - 5, HEIGHT / 2 - 5, 10, 10);
 
-
-
-
     }
 
     // Don't touch the code below

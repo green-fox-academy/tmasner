@@ -13,10 +13,10 @@ public class RainbowBoxFunction {
         int red = 0;
         int green = 255;
         int blue = 0;
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 37; i++) {
 
 
-            CenteredBox(120 - i * 2, new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)), graphics);
+            CenteredBox(150 - i * 2, new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)), graphics);
 
         }
     }
@@ -25,9 +25,6 @@ public class RainbowBoxFunction {
 
         graphics.setColor(color);
         graphics.fillRect(WIDTH / 2 - size / 2, HEIGHT / 2 - size / 2, size, size);
-
-
-
     }
 
     // Don't touch the code below
