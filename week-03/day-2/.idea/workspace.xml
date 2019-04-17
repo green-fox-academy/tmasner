@@ -16,40 +16,32 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TeacherStudent/Teacher.java">
+        <entry file="file://$PROJECT_DIR$/src/PetrolStation/Station.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               <folding>
-                <element signature="e#119#120#0" expanded="true" />
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#106#107#0" expanded="true" />
-                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#102#103#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TeacherStudent/main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TeacherStudent/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/PetrolStation/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-              <folding>
-                <element signature="e#122#123#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-              </folding>
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PetrolStation/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -93,6 +85,9 @@
         <option value="$PROJECT_DIR$/src/TeacherStudent/main.java" />
         <option value="$PROJECT_DIR$/src/TeacherStudent/Student.java" />
         <option value="$PROJECT_DIR$/src/TeacherStudent/Teacher.java" />
+        <option value="$PROJECT_DIR$/src/PetrolStation/car.java" />
+        <option value="$PROJECT_DIR$/src/PetrolStation/Station.java" />
+        <option value="$PROJECT_DIR$/src/PetrolStation/main.java" />
       </list>
     </option>
   </component>
@@ -140,7 +135,7 @@
               <item name="day-2" type="b2602c69:ProjectViewProjectNode" />
               <item name="day-2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TeacherStudent" type="462c0819:PsiDirectoryNode" />
+              <item name="PetrolStation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,7 +169,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.main (1)">
+  <component name="RunManager" selected="Application.main">
     <configuration name="DiceSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DiceSet.DiceSet" />
       <module name="day-2" />
@@ -227,28 +222,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CounterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PetrolStation.main" />
       <module name="day-2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Counter.*" />
+          <option name="PATTERN" value="PetrolStation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Counter" />
-      <option name="MAIN_CLASS_NAME" value="Counter.CounterTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.main (1)" />
         <item itemvalue="Application.DiceSet" />
         <item itemvalue="Application.FleetOfThings" />
         <item itemvalue="Application.main (5)" />
-        <item itemvalue="JUnit.CounterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +255,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555412208174</updated>
-      <workItem from="1555412223298" duration="24545000" />
+      <workItem from="1555412223298" duration="26803000" />
     </task>
     <servers />
   </component>
@@ -272,7 +265,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24545000" />
+    <option name="totallyTimeSpent" value="26803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -568,6 +561,31 @@
             <element signature="e#105#106#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PetrolStation/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PetrolStation/Station.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#102#103#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PetrolStation/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
