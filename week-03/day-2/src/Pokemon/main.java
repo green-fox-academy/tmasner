@@ -13,11 +13,11 @@ public class main {
         // Ash has a few pokemon.
         // A wild pokemon appeared!
 
-        Pokemon wildPokemon = new Pokemon("Oddish", "leaf", "water");
+        Pokemon wildPokemon = new Pokemon("Psyduck", "water", "fire");
 
         // Which pokemon should Ash use?
 
-        Pokemon chosenPokemon = new Pokemon("", "", "");
+        Pokemon chosenPokemon = new Pokemon("Pikachu", "electric", "water");
 
         for (Pokemon ashPokemon : pokemonOfAsh) {
 
@@ -33,7 +33,7 @@ public class main {
         List<Pokemon> pokemon = new ArrayList<>();
 
         pokemon.add(new Pokemon("Balbasaur", "leaf", "water"));
-        pokemon.add(new Pokemon("Pikatchu", "electric", "water"));
+        pokemon.add(new Pokemon("Onix", "rock", "fire"));
         pokemon.add(new Pokemon("Charizard", "fire", "leaf"));
         pokemon.add(new Pokemon("Balbasaur", "water", "fire"));
         pokemon.add(new Pokemon("Kingler", "water", "fire"));
