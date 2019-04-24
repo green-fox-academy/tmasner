@@ -1,6 +1,6 @@
-package main.java.music;
+package main.java.Music;
 
-public class Violin extends StringedInstrument{
+public class Violin extends StringedInstrument {
 
     public Violin(){
         numberOfStrings = 4;

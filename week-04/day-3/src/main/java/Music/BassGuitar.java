@@ -1,4 +1,4 @@
-package main.java.music;
+package main.java.Music;
 
 public class BassGuitar extends StringedInstrument {
 
