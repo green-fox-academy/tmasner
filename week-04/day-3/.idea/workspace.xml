@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cee6b61-abb4-44aa-84bd-0d5e4fc84e48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Music/BassGuitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Music/ElectricGuitar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Music/Instrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Music/StringedInstrument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Music/Violin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AppMusic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppMusic.java" afterDir="false" />
-    </list>
+    <list default="true" id="0cee6b61-abb4-44aa-84bd-0d5e4fc84e48" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -297,16 +290,15 @@
       <option name="presentableId" value="Default" />
       <updated>1556089590330</updated>
       <workItem from="1556089592769" duration="1345000" />
-      <workItem from="1556097780942" duration="11535000" />
+      <workItem from="1556097780942" duration="12217000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12880000" />
+    <option name="totallyTimeSpent" value="13562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +307,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
