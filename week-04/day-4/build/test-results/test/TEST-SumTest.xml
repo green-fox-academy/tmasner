@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SumTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-04-25T13:20:18" hostname="DESKTOP-4QMGUSV" time="0.002">
+  <properties/>
+  <testcase name="Sum_inputListOfMyNumbers_toBeSummed" classname="SumTest" time="0.001"/>
+  <testcase name="Sum_inputNull_doNotKnowWhatHappen" classname="SumTest" time="0.0"/>
+  <testcase name="Sum_inputListOfMyNumbers2EmptyList_toBeSummed" classname="SumTest" time="0.0"/>
+  <testcase name="Sum_inputListOfMyNumbers3ListWith_toBeSummed" classname="SumTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
