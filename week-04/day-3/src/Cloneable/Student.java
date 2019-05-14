@@ -30,13 +30,18 @@ public class Student extends Person implements Cloneable {
     }
 
     @Override
-    public void clone(Student inputStudent) {
+    public Student clone(Student inputStudent) {
         Student clonedStudent = new Student();
-        clonedStudent = inputStudent;
+        //clonedStudent = inputStudent;
         clonedStudent.name = inputStudent.name + " the Clone";
+        clonedStudent.skippedDays = inputStudent.skippedDays;
+        clonedStudent.previousOrganization = inputStudent.previousOrganization;
+        clonedStudent.age = inputStudent.age;
+        clonedStudent.gender = inputStudent.gender;
 
-        System.out.println("You have Shadow-cloned a new student who introduce himself:  ");
-        clonedStudent.introduce();
+        //System.out.println("You have Shadow-cloned a new student who introduce himself:  ");
+        //clonedStudent.introduce();
+        return clonedStudent;
     }
 }
 

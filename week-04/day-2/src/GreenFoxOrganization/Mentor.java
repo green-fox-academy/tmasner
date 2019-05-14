@@ -12,6 +12,7 @@ public class Mentor extends Person {
         gender = "male";
         level = "senior";
     }
+
     public Mentor(String name, int age, String gender, String level){
         this.name = name;
         this.age = age;
