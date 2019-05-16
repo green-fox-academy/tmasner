@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a04c52f0-10ca-47b2-be08-b190b45d5d82" name="Default Changelist" comment="" />
+    <list default="true" id="a04c52f0-10ca-47b2-be08-b190b45d5d82" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/FancyTable.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/FancyTable/FancyTable.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FancyTable.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/FancyTable/FancyTable.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +18,7 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FancyTable.html">
+        <entry file="file://$PROJECT_DIR$/src/FancyTable/FancyTable.html">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret lean-forward="true" />
@@ -24,7 +27,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FancyTable.css">
+        <entry file="file://$PROJECT_DIR$/src/FancyTable/FancyTable.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="526">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
@@ -81,6 +84,12 @@
               <item name="day-4" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="day-4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day-4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="FancyTable" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,6 +98,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -117,12 +127,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1557998328004</updated>
-      <workItem from="1557998332866" duration="3907000" />
+      <workItem from="1557998332866" duration="4369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3907000" />
+    <option name="totallyTimeSpent" value="4369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -162,14 +172,14 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/FancyTable.css">
+    <entry file="file://$PROJECT_DIR$/src/FancyTable/FancyTable.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FancyTable.html">
+    <entry file="file://$PROJECT_DIR$/src/FancyTable/FancyTable.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
