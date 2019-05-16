@@ -1,0 +1,49 @@
+body {
+    background-color: darkgrey;
+}
+div {
+    background-color: white;
+    width: 400px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+header {
+    color: black;
+    font-size: 30px;
+    padding-bottom: 15px;
+}
+#username {
+    color: black;
+    font-size: 15px;
+    padding-bottom: -10px;
+}
+#password {
+    color: black;
+    font-size: 15px;
+    padding-bottom: -10px;
+}
+#norton-idsafe-field-styling-divId {
+    display: none;
+}
+input {
+    width: 280px;
+    height: 15px;
+    font-size: 15px;
+}
+#forgot {
+    text-align: right;
+    font-variant-caps: all-small-caps;
+    font-size: 12px;
+}
+#login {
+    background-color: gray;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-raius: 50px;
+    padding: 10px 40px;
+    margin-top: 15px;
+    width: 150px;
+}
