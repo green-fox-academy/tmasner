@@ -22,7 +22,7 @@ public class HelloWebController {
         return "greeting";
     }
 
-    public String getRandomGreeting(){
+    public String getRandomGreeting() {
         int randomNumber = (int) (Math.random() * hellos.length);
         return hellos[randomNumber];
     }
