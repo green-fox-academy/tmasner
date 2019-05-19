@@ -15,8 +15,15 @@
     <th>Quantity</th>
 </tr>
     <tr th:each="item : ${items}"></tr>
-
+    <td th:text="${item.getName()}"></td>
+    <td th:text="${item.getDescription()}"></td>
+    <td th:text="${item.getPrice()}"></td>
+    <td th:text="${item.getQuantityOfStock()}"></td>
+    </tr>
+    <tr>
+        <td th:text="${average}"></td>
+        <td th:text="${expensive}"></td>
+    </tr>
 </table>
-
 </body>
 </html>
