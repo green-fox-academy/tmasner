@@ -1,29 +1,31 @@
 package com.greenfox.anthony.banksimba.models;
 
-import java.text.DecimalFormat;
-
 public class BankAccount {
-
     private String name;
     private double balance;
     private String animalType;
-    private String balanceString;
-    DecimalFormat df = new DecimalFormat("#.00");
-    public static String currency = "Zebra";
+    private boolean isKing;
 
-    public BankAccount(String name, double balance, String animalType, String balanceString, DecimalFormat df) {
+
+    public BankAccount(String name, double balance, String animalType) {
         this.name = name;
         this.balance = balance;
         this.animalType = animalType;
-        this.balanceString = balanceString;
-        this.df = df;
     }
 
-    public BankAccount(String name, int balance, String animalType) {
+    public BankAccount(String name, double balance, String animalType, boolean isKing) {
         this.name = name;
         this.balance = balance;
         this.animalType = animalType;
-        this.balanceString = df.format(balance);
+        this.isKing = isKing;
+    }
+
+    public boolean isKing() {
+        return isKing;
+    }
+
+    public void setKing(boolean king) {
+        isKing = king;
     }
 
     public String getName() {
@@ -45,15 +47,8 @@ public class BankAccount {
     public String getAnimalType() {
         return animalType;
     }
+
     public void setAnimalType(String animalType) {
         this.animalType = animalType;
-    }
-
-    public String getBalanceString() {
-        return balanceString;
-    }
-
-    public void setBalanceString(String balanceString) {
-        this.balanceString = balanceString;
     }
 }
