@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 public class MainController {
 
-    @RequestMapping(path = "/")
+    @RequestMapping(path = "/main")
     public String show(Model model) {
-        return "index";
+        return "mainPage";
     }
 }
