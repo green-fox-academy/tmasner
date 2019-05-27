@@ -11,4 +11,10 @@ public class MainController {
     public String show(Model model) {
         return "mainPage";
     }
+
+    @RequestMapping(path = "/main/foxinformation")
+    public String login(Model model) {
+        return "login";
+    }
+
 }
