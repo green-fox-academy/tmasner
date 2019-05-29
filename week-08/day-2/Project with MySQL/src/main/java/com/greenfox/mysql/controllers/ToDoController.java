@@ -60,4 +60,13 @@ public class ToDoController {
         repo.save(editToDo);
         return "redirect:/todo/";
     }
+    @GetMapping("/seed") //to impelement data
+    public String seed() {
+        this.repo.save(new ToDo("Hello sunshine", true, true ));
+        this.repo.save(new ToDo("DEAD inside I'am", true, true));
+        this.repo.save(new ToDo("Finish dinner", true, false));
+        this.repo.save(new ToDo("Do laundry", false, false));
+        this.repo.save(new ToDo("Create new folder for pictures", true, false));
+        return "todolist";
+    }
 }
