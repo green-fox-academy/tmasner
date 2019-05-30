@@ -22,36 +22,28 @@
             <th scope="col">ACTION</td>
             <th scope="col">DONE</td>
             <th scope="col">URGENT</td>
-            <th scope="col">DELETE</td>
-            <th scope="col">EDIT</td>
+            <th scope="col">DATE OF CREATION</td>
         </tr>
         </thead>
         <tbody>
-        <tr scope="row" th:each="todo : ${todos}">
+        <tr scope="row">
             <td th:text="${todo.getId()}"></td>
-            <td>
-                <a th:href="@{'/todo/{id}/detail'(id=${todo.getId()})}" th:text="${todo.getTitle()}"></a>
-            </td>
+            <td th:text="${todo.getTitle()}"></td>
             <td th:switch="${todo.isDone()}">
                 <p th:case="true" class="material-icons" style="color: green; font-size: 40px">done</p>
                 <p th:case="false" class="material-icons" style="color: red; font-size: 40px">clear</p>
             </td>
             <td th:switch="${todo.isUrgent()}">
-                <p th:case="true" class="material-icons" ; style="color: darkorange; font-size: 50px">notification_important</p>
+                <p th:case="true" class="material-icons" ; style="font-size: 50px">notification_important</p>
             </td>
-            <td>
-                <a th:href="@{'/todo/{id}/delete'(id=${todo.getId()})}" class="material-icons" style="color: black; font-size: 40px">delete</a>
-            </td>
-            <td>
-                <a th:href="@{'/todo/{id}/edit'(id=${todo.getId()})}" class="btn btn-info btn-sm">Edit</a>
-            </td>
+            <td th:text="${todo.getCreationDate()}"></td>
         </tr>
         </tbody>
     </table>
 </div>
 
 <div class="container">
-    <a href="/todo/add" class="material-icons" style="color: blue; font-size: 50px">create_new_folder</a>
+    <a href="/todo/" class="material-icons" style="font-size: 50px">keyboard_backspace</a>
 </div>
 
 </body>

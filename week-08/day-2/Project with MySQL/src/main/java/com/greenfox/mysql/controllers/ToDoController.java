@@ -60,6 +60,7 @@ public class ToDoController {
         repo.save(editToDo);
         return "redirect:/todo/";
     }
+
     @GetMapping("/seed") //to impelement data
     public String seed() {
         this.repo.save(new ToDo("Hello sunshine", true, true ));
@@ -69,4 +70,10 @@ public class ToDoController {
         this.repo.save(new ToDo("Create new folder for pictures", true, false));
         return "todolist";
     }
+
+    @RequestMapping("/16/detail")
+    public String detail() {
+        return "death";
+    }
+
 }
